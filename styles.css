@@ -87,7 +87,7 @@ header .container {
     margin: 0;
 }
 
-.names h3 .colortext {
+.colortext {
     color:  #fc7254;
 }
 
@@ -118,6 +118,7 @@ header .container {
     
 }
 
+
 .contact button {
     background: #fc7254;
     border-radius: 50px;
@@ -138,4 +139,58 @@ header .container {
     text-decoration: none;
 }
 
+#process .service h2 {
+    font-size: 20px;
+    color: #6f6f6f;
+    text-decoration: none;
+    margin: 0;
+}
+
+
+#process .service p {
+    color: #a1a1a1;
+    font-size: 13px;
+    line-height: 30px;
+    margin: 0;
+}
+
+.service {
+    width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px solid white;
+    position: relative;
+}
+
+.service .wrap {
+    text-align: center;
+    padding: 15px;
+    background: #4eb2f7;
+    color: white;
+   }
+
+.service .wrap2 {
+    text-align: center;
+    padding: 15px;
+    background: #c049f8;
+    color: white;
+   }
+
+.service .wrap3 {
+    text-align: center;
+    padding: 15px;
+    background: #817eff;
+    color: white;
+   }
+
+.service .wrap4 {
+    text-align: center;
+    padding: 15px;
+    background: #f74770;
+    
+   }
+
+   .service .wrap p, .service .wrap2 p, .service .wrap3 p, .service .wrap4 p {
+    color: white;
+   } 
 
