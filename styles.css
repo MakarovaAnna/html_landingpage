@@ -214,13 +214,16 @@ summary::before {
         content: "-";
     }
 
-#process, #works {
+#process, #works, #services {
     margin: 100px auto 150px;
 }
 
-#works {
-    margin-top: 110px;
+#services .image, #services .info, #services .image2 {
+       display: flex;
+       flex-direction: column;
 }
+
+
 
 
 @media(max-width: 1240px){
